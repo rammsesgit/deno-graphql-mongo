@@ -11,3 +11,5 @@ A simple backend using Deno, GraphQL and MongoDB.
 ```sh
 deno run --allow-net --allow-write --allow-read --allow-plugin --unstable server.ts
 ```
+
+Then go to [http://localhost:8000/graphql](http://localhost:8000/graphql) to use the GrapghQL playground.
