@@ -1,7 +1,13 @@
 # deno-graphql-mongo
 
-> A simple backend using Deno, GraphQL and MongoDB.
+A simple backend using Deno, GraphQL and MongoDB.
 
-##### Recommendation: `Ctrl + P` and paste `ext install denoland.vscode-deno` in order to gain intellisense support, intelligent module import and more features.
+> Recommendation: `Ctrl + P` and paste `ext install denoland.vscode-deno` in order to gain intellisense support, intelligent module import and more features. You can disable Deno's formatting tools in .vscode/settings.json
 
 ---
+
+## How to run
+
+```sh
+deno run --allow-net --allow-write --allow-read --allow-plugin --unstable server.ts
+```
