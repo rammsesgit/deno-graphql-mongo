@@ -25,6 +25,10 @@ docker start mongo_test
 ### Deno
 
 ```sh
+cd src/
+```
+
+```sh
 deno run --allow-net --allow-write --allow-read --allow-plugin --unstable server.ts
 ```
 
